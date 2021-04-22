@@ -1,14 +1,24 @@
 /* Content */
 
 .aspectRatioBox {
-
   padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
   background-size: cover;
   background-position: center;
 
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
 /* Nav */
+
+.nav-link {
+  color: black;
+  font-weight: 600;
+
+}
 
 /* Main */
 
@@ -24,7 +34,22 @@ h1 {
   font-size: 120px;
   line-height: .8;
   letter-spacing: -5px;
+  color: white;
 
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 5px;
+  text-decoration-skip-ink: auto;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 217, 255);
 }
 
 /* Port */
@@ -40,26 +65,32 @@ h1 {
   
 }
 
-date {
-  font-size: 14px;
+h4 {
+  font-size: 18px;
+  color: darkgrey;
 
 }
 
-h2 {
-  font-size: 30px;
+h5 {
+  font-size: 32px;
+  font-weight: 600;
   
 }
 
-p2 {
-  font-size: 16px;
+p3 {
+  font-size: 18px;
   margin-right: -10px;
+  
 }
 
 /* Footer */
 
-@media (max-width: 768px) {
-  .copy-box {
-    margin-left: -15px;
-  }
+/* Responsive */
 
+@media (max-width: 576px) {
+  .copy-box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
 }
