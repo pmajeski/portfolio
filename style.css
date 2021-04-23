@@ -20,6 +20,12 @@ body {
 
 }
 
+a.nav-link {
+
+  text-decoration: none;
+
+}
+
 /* Main */
 
 #hero {
